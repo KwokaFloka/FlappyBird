@@ -6,7 +6,7 @@ public class Tube {
     private Texture topTube, bottomTube;
 
     public Tube(float x) {
-        topTube = new Texture("");
-        bottomTube = new Texture("");
+        topTube = new Texture("toptube.png");
+        bottomTube = new Texture("bottomtube.png");
     }
 }
